@@ -13,3 +13,22 @@ git push -u origin main
 git remote add origin https://github.com/ElNuevoAprendiz/ConAyudaDeChatGPT.git
 git branch -M main
 git push -u origin main
+
+************************************Uso del driver de sqlite *********************
+Descargar el archivo jar del driver desde el sitio de sqlite y colocarlo en una carpeta 
+llamada lib que cuelgue de la raiz del proyecto.
+
+Luego modificar el classpath.
+
+Para poder configurar el classpath y librerías primero tenemos que 
+instalar la extensión Extension Pack for Java, después abrir la configuración 
+del classpath y liberías haciendo lo siguiente:
+
+
+   - F1
+   - "Java configure classpath"
+
+En la configuración vemos que el classpath está indicado como la carpeta raíz 
+del proyecto (.) en este caso el classpath debería de ser src y en el listado 
+de librerías vemos que no hay ninguna, deberíamos de añadir la libería de
+sqlite que es el jar que descargamos y pusimos en la carpeta lib

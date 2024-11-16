@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "Sample",
+            "projectName": "ConAyudaDeChatGPT_a82bc571",
+            "vmArgs": "-cp \"${workspaceFolder}/libs/sqlite-jdbc-3.39.2.0.jar:${workspaceFolder}/bin\"", // Aquí se agrega el JAR al classpath
+     	"args": ""
+        }
+    ]
+}

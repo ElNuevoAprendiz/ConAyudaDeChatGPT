@@ -1,0 +1,12 @@
+{
+    "sqlite.setupDatabase": {
+
+    },
+    "sqlite.sqlite3": "\"java.project.referencedLibraries\": [\"lib/sqlite-jdbc-3.39.2.0.jar\"]",
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": [
+        "lib/sqlite-jdbc-3.47.0.0.jar"
+    ]
+}
